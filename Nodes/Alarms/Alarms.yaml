@@ -1,0 +1,199 @@
+Name: Alarms
+Id: g=3293e7cd8de0bb06cc725e017a984470
+Type: AlarmsCategoryFolder
+Children:
+- Name: Alarm1
+  Id: g=915a06172cb517ffc8d43bf18eca3579
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=e10328741e7dc4c1320c6337add047f1
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=d875644b6130a45117da4a03cab49f5b
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=665fba7d30b318d7b7a228e8ebfd3607
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=17;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=154
+    Direction: Forward
+  - Name: AutoAcknowledge
+    Id: g=e1a85f7204241f09302a847246f1bdec
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: AutoConfirm
+    Id: g=2cff1adac59a4742d0599fa35486beba
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Message
+    Id: g=5754daea9f28f7e0b54a59ba2e2e3126
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Alarm 1 Message"}
+- Name: Alarm2
+  Id: g=5961e86c06ec9986bf7ec78c27a04c04
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=2034b6ae6a2540f49be3964b3aaa8c08
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=78bf33d13cdd4c518477b51c04bae068
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=d7ad967e2a358cae6901f1c03f8f6456
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=17;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=154
+    Direction: Forward
+  - Name: AutoAcknowledge
+    Id: g=a528c8025f6fe61db97b8fc64e3a6427
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutoConfirm
+    Id: g=e36890fd70fe3f83bc5d7b0c7a813b96
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Message
+    Id: g=4790c746e2eac46f32d216215e7d37e7
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Alarm 2 Message"}
+- Name: Alarm3
+  Id: g=57c9fca3b3c3c01cd50a17cf85db1ceb
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=1b216a21d5551e764ff9ab57a7fe47b5
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=378dfb9014527e7ae197c590b0b18977
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=40e5332c5ac65fed840e9efc1a8775c0
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=17;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=154
+    Direction: Forward
+  - Name: AutoAcknowledge
+    Id: g=f074fcd600d3be8b22ed53bcc3425d16
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutoConfirm
+    Id: g=3fb3cd0201cdc0cdf41d0888614b6d15
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: Message
+    Id: g=e8989b5f05f74009f0aa310acbdb4b93
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Alarm 3 Message"}
